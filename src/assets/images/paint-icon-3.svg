@@ -1,0 +1,45 @@
+<?xml version="1.0" ?><svg viewBox="0 0 166.61 174.55" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #91d5dc;
+      }
+
+      .cls-3 {
+        fill: #ef3648;
+      }
+
+      .cls-4 {
+        fill: #cfddd0;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #fdba17;
+      }
+
+      .cls-7 {
+        fill: #f04f4e;
+      }
+
+      .cls-8 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-9 {
+        fill: #e37130;
+      }
+
+      .cls-10 {
+        fill: #148fbb;
+      }
+
+      .cls-11 {
+        fill: #00619c;
+      }
+    </style><clipPath id="clip-path"><circle class="cls-1" cx="81.18" cy="81.18" r="81.18"/></clipPath></defs><title/><g data-name="Layer 2" id="Layer_2"><g id="рисунок"><g><circle class="cls-2" cx="81.18" cy="81.18" r="81.18"/><g><rect class="cls-3" height="98.79" width="35.06" x="31.85" y="36.98"/><rect class="cls-4" height="4.12" width="15.93" x="41.41" y="32.86"/><rect class="cls-5" height="9.56" width="28.68" x="35.04" y="24.24"/><rect class="cls-6" height="9.61" width="35.06" x="31.85" y="36.98"/><rect class="cls-6" height="9.56" width="35.06" x="31.85" y="126.22"/><rect class="cls-6" height="18.97" width="35.37" x="31.69" y="75.3"/><rect class="cls-7" height="6.37" width="19.12" x="39.98" y="81.52"/></g><g class="cls-8"><rect class="cls-9" height="39.91" width="151.33" x="15.28" y="134.63"/></g><g><polygon class="cls-10" points="143.06 171.1 81.88 171.1 81.88 59.66 92.07 51.41 132.86 51.41 143.06 59.66 143.06 171.1"/><rect class="cls-5" height="24.76" width="40.79" x="92.07" y="26.64"/><rect class="cls-11" height="16.51" width="61.18" x="81.88" y="59.66"/><rect class="cls-11" height="16.51" width="61.18" x="81.88" y="146.33"/><rect class="cls-11" height="12.38" width="35.69" x="94.62" y="105.06"/><rect class="cls-4" height="8.25" width="40.79" x="92.07" y="43.15"/></g></g></g></g></svg>
