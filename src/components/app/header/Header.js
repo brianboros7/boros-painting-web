@@ -1,5 +1,5 @@
 import React from 'react'; 
-import NavBar from '../menu/NavBar'; 
+import NavBar from '../../menu/NavBar'; 
 import './style.scss'
 
 function Header() {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/App.scss';
-import Header from './components/header/Header'; 
+import Header from './components/app/header/Header'; 
 import Gallery from './pages/gallery/Gallery'; 
 import Home from './pages/landing/Home'; 
 

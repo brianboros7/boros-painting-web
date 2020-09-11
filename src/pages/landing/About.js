@@ -2,12 +2,13 @@ import React from 'react';
 import aboutImage from './HomeImageData'; 
 import {Container, Row, Col} from 'react-bootstrap'; 
 
+
 function About() {
 
     return(
         <Container fluid className="about-container">
-            <Row className="about-content">
-                <Col>
+            <Row className="about-section">
+                <Col className="about-content">
                     <h4>Boros Painting</h4>
                     <h5>
                         Started by Brian Boros, Boros Painting is a family owned 
