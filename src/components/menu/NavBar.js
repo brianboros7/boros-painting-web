@@ -1,5 +1,5 @@
 import React from 'react'; 
-import {Navbar, Nav} from 'react-bootstrap'; 
+import {Navbar} from 'react-bootstrap'; 
 import {Link} from 'react-router-dom'; 
 import logo from '../../assets/images/boros-painting-logo.png';
 import './style.scss';
