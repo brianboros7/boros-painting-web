@@ -1,20 +1,21 @@
-.main-banner {
-    display: block; 
-}
 .main-banner img {
     display: block; 
     width: 100%; 
 }
 /* About Section */ 
-.about-container{ 
+.about-container { 
     color: white; 
     background-color:     #0b5679;
-}
-.about-content {
     padding: 1rem; 
-    width: 90%; 
-    max-width: 400px; 
 }
-.about-content img {
+.about-section {
+    width: 95%; 
+    padding: 1rem; 
+}
+.about-image {
+    width: 99%; 
+}
+.about-section img {
+    display: block; 
     width: 100%; 
 }
