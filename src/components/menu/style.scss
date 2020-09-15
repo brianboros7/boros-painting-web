@@ -1,9 +1,15 @@
-.navbar-brand {
+.navbar {
+    padding: 1rem; 
+}
+.navbar-brand img {
     width: 6rem; 
+    padding-right: 1rem; 
 }
 .nav-item {
     padding: 0 1rem;
     color: #0b5679;
+    font-size: 1.5rem; 
+    text-decoration: none; 
 }
 .nav-item:hover {
     color: gray; 

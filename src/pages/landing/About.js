@@ -1,5 +1,5 @@
 import React from 'react'; 
-import aboutImage from './HomeImageData'; 
+import aboutImage from '../../assets/images/brian-boros-boros-painting.jpg'; 
 import {Container, Row, Col} from 'react-bootstrap'; 
 
 
@@ -22,9 +22,7 @@ function About() {
                     </h5>
                 </Col>
                 <Col>
-                    {aboutImage.map((image) => (
-                        <img key={image.id} src={image.src} alt={image.alt} /> 
-                    ))}
+                    <img src={aboutImage} /> 
                 </Col>
             </Row>
         </Container>
