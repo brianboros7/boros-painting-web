@@ -22,7 +22,7 @@ function About() {
                     </h5>
                 </Col>
                 <Col>
-                    <img src={aboutImage} /> 
+                    <img src={aboutImage} alt="Brian Boros Painting on a ladder" /> 
                 </Col>
             </Row>
         </Container>
