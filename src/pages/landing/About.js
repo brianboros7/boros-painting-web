@@ -1,6 +1,6 @@
 import React from 'react'; 
 import aboutImage from '../../assets/images/brian-boros-boros-painting.jpg'; 
-import {Container, Row, Col} from 'react-bootstrap'; 
+import {Container, Row, Col, Grid} from 'react-bootstrap'; 
 
 
 function About() {
@@ -8,7 +8,7 @@ function About() {
     return(
         <Container fluid className="about-container">
             <Row className="about-section">
-                <Col className="about-content" lg={6}>
+                <Col sm={12} md={6} className="about-content">
                     <h4>Boros Painting</h4>
                     <h5>
                         Started by Brian Boros, Boros Painting is a family owned 
@@ -21,7 +21,7 @@ function About() {
                         a website and share soem work via social media.
                     </h5>
                 </Col>
-                <Col className="about-image" lg={6}>  
+                <Col sm={12} md={6} className="about-image">  
                     <img src={aboutImage} alt="Brian Boros Painting on a ladder" /> 
                 </Col>
             </Row>
