@@ -1,6 +1,6 @@
 import React from 'react'; 
 import aboutImage from '../../assets/images/brian-boros-boros-painting.jpg'; 
-import {Container, Row, Col, Grid} from 'react-bootstrap'; 
+import {Container, Row, Col} from 'react-bootstrap'; 
 
 
 function About() {
