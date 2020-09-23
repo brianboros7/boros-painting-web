@@ -1,22 +1,102 @@
+@import "~bootstrap/scss/bootstrap";
 
 .main-banner img {
     display: block; 
     width: 100%; 
 } 
+
+/* Values Section */ 
+.values-container {
+    padding: 1rem; 
+    color: #0b5679; 
+
+    @include media-breakpoint-up(lg) {
+        padding: 4rem 1rem; 
+    }
+}
+.values-content {
+    width: 95%; 
+    padding: .5rem;
+    font-size: 1rem; 
+}
+.values-content img {
+    width: 100%; 
+    padding: 2.5rem;
+}
+
 /* About Section */ 
 .about-container { 
     color: white; 
-    background-color:     #0b5679;
+    background-color: #0b5679;
     padding: 1rem; 
 }
 .about-section {
-    width: 95%; 
+    width: 100%; 
     padding: 1rem; 
+
+    @include media-breakpoint-up(lg) {
+        padding: 2rem; 
+    }
 }
 .about-image {
     width: 99%; 
+    padding: .5rem;
+    
+    @include media-breakpoint-up(lg) {
+        width: 60%;
+        padding: 3rem; 
+    }
 }
-.about-section img {
-    display: block; 
+.about-image img {
     width: 100%; 
 } 
+
+/* Brand Section */ 
+.brand-content {
+    padding: 2rem 1.5rem;
+    color: #0b5679; 
+
+    @include media-breakpoint-up(lg) {
+        padding: 10rem 1rem; 
+        font-size: 1.5rem; 
+    }
+}
+.brand-image {
+    width: 99%; 
+    padding: 2rem; 
+
+    @include media-breakpoint-up(lg) {
+        width: 85%; 
+        padding: 5rem; 
+    }
+}
+.brand-image img {
+    width: 100%; 
+}
+
+/* Services Section */ 
+.services-container {
+    color: white; 
+    padding: 1rem; 
+    background-color: #0b5679;
+}
+.services-content h3 {
+    text-align: center; 
+    padding: 1rem; 
+
+    @include media-breakpoint-up(lg) {
+        padding: 3rem 0 1rem; 
+        font-size: 2rem; 
+    }
+}
+.services-image {
+    width: 100%; 
+    padding: .5rem; 
+
+    @include media-breakpoint-up(lg) {
+        padding: 4rem; 
+    }
+}
+.services-image img {
+    width: 100%; 
+}

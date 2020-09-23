@@ -3,6 +3,7 @@ import './styles/App.scss';
 import Header from './components/app/header/Header'; 
 import Gallery from './pages/gallery/Gallery'; 
 import Home from './pages/landing/Home'; 
+import Footer from './components/app/footer/Footer'; 
 
 import { 
   BrowserRouter as Router, 
@@ -12,19 +13,22 @@ import {
 
 function App() {
   return (
-    <Router>
-      <Header /> 
-      <Switch>
-        <Route
-          path="/" exact>
-            <Home /> 
-        </Route>
-        <Route
-          path="/gallery"> 
-            <Gallery   /> 
-        </Route>
-      </Switch>
-    </Router>
+    <div className="App"> 
+      <Router>
+        <Header /> 
+        <Switch>
+          <Route
+            path="/" exact>
+              <Home /> 
+          </Route>
+          <Route
+            path="/gallery"> 
+              <Gallery   /> 
+          </Route>
+        </Switch>
+        <Footer /> 
+      </Router>
+    </div> 
   )
 }
 
