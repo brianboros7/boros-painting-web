@@ -16,19 +16,19 @@
     padding: .5rem;
 }
 .gallery-images {
-    width: 95%;
+    width: 98%;
     padding: .5rem; 
     
     @include media-breakpoint-up(lg) {
         display: flex; 
     }
 }
-.gallery-images div {
-    padding: .5rem; 
-    border: 1px solid #0b5679; 
-    margin: .5rem; 
+.gallery-image-container {
+    padding: 1rem; 
 }
 .gallery-images img {
     width: 100%; 
     background-color: whitesmoke;
+    border: 2px solid #0b5679; 
+    padding: 4px 4px; 
 }

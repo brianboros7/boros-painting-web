@@ -4,7 +4,8 @@ import interiorImage3 from './../../assets/images/interior/boros-painting-interi
 import interiorImage4 from './../../assets/images/interior/boros-painting-interior-before-and-after-4.png'; 
 import interiorImage5 from './../../assets/images/interior/boros-painting-interior-before-and-after-5.png'; 
 import interiorImage6 from './../../assets/images/interior/boros-painting-interior-before-and-after-6.png'; 
-
+import interiorImage7 from './../../assets/images/interior/boros-painting-interior-before-and-after-7.png'; 
+import interiorImage8 from './../../assets/images/interior/boros-painting-interior-before-and-after-8.png'; 
 
 const interiorImages = [
     {
@@ -41,7 +42,19 @@ const interiorImages = [
         id: "6",
         src: interiorImage6,
         alt: "Interior before and after image six",
-        span_id: "span-5"
+        span_id: "span-6"
+    },
+    {
+        id: "7",
+        src: interiorImage7,
+        alt: "Interior before and after image seven",
+        span_id: "span-7"
+    },
+    {
+        id: "8",
+        src: interiorImage8,
+        alt: "Interior before and after image eight",
+        span_id: "span-8"
     }
 ]
 

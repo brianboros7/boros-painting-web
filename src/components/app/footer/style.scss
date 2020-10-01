@@ -2,6 +2,18 @@
 
 footer {
     border-top: 1px solid #0b5679; 
-    margin: 1rem 0 0; 
-    padding: 1rem 0; 
+    margin-top: 3px;  
+    color: #0b5679;
+    background-color: rgba(119, 243, 243, 0.733);
+
+}
+footer p, .footer-container {
+    display: block; 
+}
+footer .footer-container {
+    float: right; 
+}
+footer p {
+    float: left; 
+    padding-top: 3rem; 
 }

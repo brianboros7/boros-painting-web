@@ -1,25 +1,25 @@
 import React from 'react';
 import './style.scss';
+import {Container, Row, Col} from 'react-bootstrap'; 
 import interiorImages from './interiorImages';
 import exteriorImages from'./exteriorImages'; 
 
 function Gallery() {
-   {/* const [galleryImage, setGalleryImage] = useEffect("") */}
-    
+
     const interiorGalleryImages = interiorImages.map((image) => (
-        <div key={image.id}>
+        <Col lg={3} key={image.id} className="gallery-image-container">
             <span className={image.span_id}> 
               <img src={image.src} alt={image.alt} />
             </span> 
-        </div> 
+        </Col> 
     ))
 
     const exteriorGalleryImages = exteriorImages.map((image) => (
-        <div key={image.id}>
+        <Col lg={3} key={image.id} className="gallery-image-container">
             <span className={image.span_id}> 
               <img src={image.src} alt={image.alt} />
             </span> 
-        </div> 
+        </Col> 
     ))
 
     return(
@@ -27,21 +27,21 @@ function Gallery() {
             <section className="gallery-section">
                 <h2>Interior Gallery</h2>
                 <div className="gallery-images-container border">
-                    <div className="gallery-images-wrapper">
-                        <div className="gallery-images"> 
+                    <Container className="gallery-images-wrapper">
+                        <Row className="gallery-images"> 
                             {interiorGalleryImages}
-                        </div> 
-                    </div>
+                        </Row> 
+                    </Container>
                 </div>
             </section>
             <section className="gallery-section">
                 <h2>Exterior Gallery</h2> 
                 <div className="gallery-images-container border">
-                    <div className="gallery-images-wrapper">
-                        <div className="gallery-images"> 
+                    <Container className="gallery-images-wrapper">
+                        <Row className="gallery-images"> 
                             {exteriorGalleryImages}
-                        </div>
-                    </div>
+                        </Row>
+                    </Container>
                 </div>
             </section>
         </main> 
