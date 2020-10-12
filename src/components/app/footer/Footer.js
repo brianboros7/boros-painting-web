@@ -12,7 +12,7 @@ function Footer() {
                     <NavBurger /> 
                 </div> 
             </div> 
-            <p><CopyrightIcon className="copyright-icon" />  Boros Painting, LLC.</p>
+            <p><CopyrightIcon className="copyright-icon" />All Rights Reserved. Boros Painting, LLC.</p>
         </footer>
     )
 
