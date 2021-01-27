@@ -3,6 +3,7 @@ import './style.scss';
 import {Container, Row, Col} from 'react-bootstrap'; 
 import interiorImages from './interiorImages';
 import exteriorImages from'./exteriorImages'; 
+import {MagnifierContainer, MagnifierPreview, MagnifierZoom} from 'react-image-magnifiers'
 
 function Gallery() {
 
@@ -16,9 +17,17 @@ function Gallery() {
 
     const exteriorGalleryImages = exteriorImages.map((image) => (
         <Col lg={3} key={image.id} className="gallery-image-container">
-            <span className={image.span_id}> 
-              <img src={image.src} alt={image.alt} />
-            </span> 
+            <MagnifierContainer>
+                <div className="example-class">
+                    <MagnifierPreview>
+                        <span className={image.span_id}> 
+                            <img src={image.src} alt={image.alt} />
+                        </span> 
+                    </MagnifierPreview>
+                </div>
+                <MagnifierZoom style={{ height: "400px" }} imageSrc={image.src}/>
+            </MagnifierContainer>
+            
         </Col> 
     ))
 
