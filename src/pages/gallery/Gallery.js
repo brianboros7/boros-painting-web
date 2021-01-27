@@ -18,7 +18,7 @@ function Gallery() {
     const exteriorGalleryImages = exteriorImages.map((image) => (
         <Col lg={3} key={image.id} className="gallery-image-container">
             <MagnifierContainer>
-                <div className="example-class">
+                <div className="magnifier-wrapper">
                     <MagnifierPreview>
                         <span className={image.span_id}> 
                             <img src={image.src} alt={image.alt} />
@@ -27,7 +27,6 @@ function Gallery() {
                 </div>
                 <MagnifierZoom style={{ height: "400px" }} imageSrc={image.src}/>
             </MagnifierContainer>
-            
         </Col> 
     ))
 
